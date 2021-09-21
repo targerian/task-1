@@ -32,8 +32,10 @@ const AddNewItem = () => {
           placeholder="Eg. Business Consulting"
           className="input-text"
         />
-        <Form.Label className="add-item-txt-label">Discreption</Form.Label>
+        <Form.Label className="add-item-txt-label ">Discreption</Form.Label>
         <Form.Control
+          as="textarea"
+          rows="3"
           type="text"
           placeholder="Describe your product"
           className="input-text"
