@@ -21,6 +21,7 @@ body {
   right: 30px;
   width: 51px;
   height: 51px;
+  cursor: pointer;
 }
 .add-item-container > h1 {
   font-size: 28px;
