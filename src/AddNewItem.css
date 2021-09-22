@@ -15,6 +15,13 @@ body {
   align-items: flex-start;
   color: #0f1730;
 }
+.close-svg {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 51px;
+  height: 51px;
+}
 .add-item-container > h1 {
   font-size: 28px;
   padding-bottom: 31px;

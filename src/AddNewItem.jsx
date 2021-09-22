@@ -1,11 +1,13 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 import "./AddNewItem.css";
+import { ReactComponent as CloseSvg } from "./svgs/close.svg";
 
 const AddNewItem = () => {
   return (
     <>
       <div className="add-item-container">
+        <CloseSvg className="close-svg" />
         <h1>Add new item </h1>
         <span className="item-type-subtitle">
           What kind of item do you like to add?
