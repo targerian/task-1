@@ -5,7 +5,7 @@ body {
 
 .add-item-container {
   margin: 50px auto;
-  padding: 30px 70px;
+  padding: 60px 70px;
   border-radius: 20px;
   width: 500px;
   display: flex;
@@ -31,8 +31,8 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
-  font-size: 1.3 rem;
+  margin-bottom: 40px;
+  font-size: 16px;
   font-weight: 500;
   color: #555b6d;
 }

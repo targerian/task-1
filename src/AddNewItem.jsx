@@ -6,7 +6,7 @@ const AddNewItem = () => {
   return (
     <>
       <div className="add-item-container">
-        <h1>Add New Item </h1>
+        <h1>Add new item </h1>
         <span className="item-type-subtitle">
           What kind of item do you like to add?
         </span>
