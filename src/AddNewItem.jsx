@@ -7,52 +7,59 @@ const AddNewItem = () => {
     <>
       <div className="add-item-container">
         <h1>Add New Item </h1>
-        <h3 className="item-type-subtitle">
+        <span className="item-type-subtitle">
           What kind of item do you like to add?
-        </h3>
+        </span>
         <div className="add-item-checkbox-item">
           <Form.Check
             inline
             type="radio"
-            name="services"
-            label="Services"
+            name="item"
+            label="Service"
             id="services"
           />
           <Form.Check
             inline
             type="radio"
-            name="products"
-            label="Products"
+            name="item"
+            label="Product"
             id="products"
           />
         </div>
-        <Form.Label className="add-item-txt-label">Name *</Form.Label>
+        <Form.Label for="txt" className="add-item-txt-label">
+          Name *
+        </Form.Label>
         <Form.Control
           type="text"
           placeholder="Eg. Business Consulting"
           className="input-text"
+          id="txt"
+          required
         />
-        <Form.Label className="add-item-txt-label ">Discreption</Form.Label>
+        <Form.Label for="describtion" className="add-item-txt-label ">
+          Discreption
+        </Form.Label>
         <Form.Control
           as="textarea"
           rows="3"
           type="text"
           placeholder="Describe your product"
           className="input-text"
+          id="describtion"
+          required
         />
-        <Form.Label className="add-item-txt-label">Price *</Form.Label>
+        <Form.Label for="price" className="add-item-txt-label">
+          Price *
+        </Form.Label>
         <Form.Control
           type="text"
           placeholder="Enter amount"
           className="input-text"
+          id="price"
         />
         <div className="buttons">
-          <button type="submit" className="button light">
-            Cancel
-          </button>
-          <button type="submit" className="button dark">
-            Add Item
-          </button>
+          <button className="button light">Cancel</button>
+          <button className="button dark">Add Item</button>
         </div>
       </div>
     </>
